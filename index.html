@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="language" content="EN" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1" />
+        <meta name="description" content="A showcase of Android-style 9 dot lock patterns." />
+        <meta name="author" content="nethe550" />
+        <meta name="keywords" content="android, lock, pattern, android lock pattern, lock pattern, android lock, 9 dot pattern, 9 dot lock, 9 dot lock pattern" />
+        <title>9-dot Lock Pattern</title>
+        <link rel="stylesheet" href="./src/css/index.css" />
+    </head>
+    <body>
+        <div id="content">
+            <h1>Dot Patterns</h1>
+            <hr/>
+            <div id="canvas-wrapper">
+                <canvas id="c"></canvas>
+            </div>
+            <br/>
+            <label>Size:</label>
+            <input id="size-slider" type="range" min="1" max="64" value="3" />
+            <br/>
+            <label>Color:</label>
+            <input id="toggle-color" type="checkbox" />
+            <br/>
+            <br/>
+            <button id="draw-pattern">Draw Pattern</button>
+        </div>
+        <script src="./src/js/Dot.js"></script>
+        <script src="./src/js/DotPattern.js"></script>
+        <script src="./src/js/PatternType.js"></script>
+        <script src="./src/js/Pattern.js"></script>
+        <script src="./src/js/PatternGenerator.js"></script>
+        <script src="./src/js/index.js"></script>
+    </body>
+</html>
